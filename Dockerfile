@@ -1,4 +1,4 @@
-FROM node:23.11.0-bookworm-slim
+FROM node:23.11.0-alpine3.21
 
 RUN npm install -g npm@9.1.3
 
